@@ -13,3 +13,5 @@ pyo3-polars = { version = "0.26.0", features = ["derive"] }
 serde = { version = "1", features = ["derive"] }
 polars = { version = "0.53.0", default-features = false }
 
+[package.metadata.maturin]
+python-source = "venv"
